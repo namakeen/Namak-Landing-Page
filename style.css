@@ -1,0 +1,29 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+#head{
+    height: 1.5em;
+    text-align: center;
+    font-size: 2.5em;
+    background: #004d99;
+    color: #f2f2f2;
+}
+#name{
+    height: 2em;
+    padding-top: 15px;
+    text-align: center;
+    font-size: 2.5em;
+
+}
+#bodytext {
+    background: black;
+    color: #eee9e9;
+    font-size: 40px;
+    margin-top: 400px; 
+    text-align: center;
+
+    animation: 
+        typing 3.5s steps(40, end),
+        blink-caret .75s step-end infinite;
+}
