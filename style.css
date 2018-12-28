@@ -1,29 +1,41 @@
 *{
     padding: 0px;
     margin: 0px;
+    
 }
-#head{
+
+#background{
+    background-size: 100%;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    background-image: linear-gradient(#6666ff 1%  ,purple 100%) ;   
+    background-repeat:   no-repeat;
+}
+
+#name{
+    color: #f2f2f2;
+    height: 2em;
+    text-align: center;
+    font-size: 90px;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+#bodytext {
+    font-family: 'Titillium Web', sans-serif;
+    color: #eee9e9;
+    margin-top: 200px;
+    font-size: 40px;
     height: 1.5em;
     text-align: center;
-    font-size: 2.5em;
-    background: #004d99;
-    color: #f2f2f2;
+    
 }
-#name{
-    height: 2em;
-    padding-top: 15px;
-    text-align: center;
-    font-size: 2.5em;
 
-}
-#bodytext {
-    background: black;
+#contact{
     color: #eee9e9;
-    font-size: 40px;
-    margin-top: 400px; 
-    text-align: center;
-
-    animation: 
-        typing 3.5s steps(40, end),
-        blink-caret .75s step-end infinite;
+    text-align: right;
+    padding:10px;
+    padding-right: 50px;
+    margin-top: 250px;
 }
